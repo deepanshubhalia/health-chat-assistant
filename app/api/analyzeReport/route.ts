@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import axios from 'axios';
 
-const HUGGINGFACE_TOKEN = process.env.HUGGINGFACE_TOKEN || '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';
+const HUGGINGFACE_TOKEN = process.env.HUGGINGFACE_TOKEN;
 
 const headers = {
   Authorization: `Bearer ${HUGGINGFACE_TOKEN}`,

@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // Hugging Face API Configuration
-const HUGGINGFACE_TOKEN = process.env.HUGGINGFACE_TOKEN || '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';
+const HUGGINGFACE_TOKEN = process.env.HUGGINGFACE_TOKEN;
 
 const headers = {
   Authorization: `Bearer ${HUGGINGFACE_TOKEN}`,
